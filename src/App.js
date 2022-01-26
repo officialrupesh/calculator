@@ -33,7 +33,8 @@ function App() {
      </div>
      <button className="span-two">AC</button>
      <button>DEL</button>
-     <OperationButton operation="/" dispatch = {dispatch} />
+     {/* <OperationButton operation="/" dispatch = {dispatch} /> */}
+     <DigitButton digit="/" dispatch = {dispatch} />
      <DigitButton digit="1" dispatch = {dispatch} />
      <DigitButton digit="2" dispatch = {dispatch} />
      <DigitButton digit="3" dispatch = {dispatch} />
